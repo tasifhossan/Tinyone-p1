@@ -1,0 +1,127 @@
+/*custom css*/
+/*common start*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #898989;
+
+}
+/*common end*/
+/*heafer start*/
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+
+}
+.c_nav{}
+.logo{}
+.menu{
+	
+}
+.menu ul li a{
+	font-size: 22px !important;
+	font-weight: 700 !important;
+	color: #010101 !important;
+	padding: 0 50px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+
+}
+.menu ul li a:hover{
+	color: white !important;
+
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-color: #fcdb00;
+	padding-bottom: 100px;
+}
+.c_indi{
+	bottom: -80px;
+}
+.c_indi [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.c_text{
+	margin-top: 70px;
+}
+.c_text h1{
+	font-size: 32px ;
+	font-weight: 700 ;
+	color: #010101;
+}
+.c_text h2{
+	font-size: 20px ;
+	font-weight: 400 ;
+	color: #313841;
+	margin: 20px 0;
+}
+.c_text p{
+	color: #555555;
+	margin-bottom: 35px;
+
+}
+.c_icon{}
+.c_icon ul li{
+	margin-right: 30px !important;
+}
+.c_icon ul li i{
+	font-size: 40px;
+	color: #010101;
+	transition: .3s;
+}
+.c_icon ul li i:hover{
+	transform: scale(.8);
+}
+.c_img{}
+
+/*banner end*/
+
+/*feature start*/
+.features{
+	padding: 100px 0 120px;
+	background-color: #ffffff;
+}
+.c_title{
+	margin-bottom: 90px;
+
+}
+.c_h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+	margin-bottom: 15px;
+
+}
+.c_p1{
+	font-size: 20px;
+	color: #313841;
+	line-height: 28px;
+
+}
+.f_i{
+	font-size: 50px;
+	color: #010101;
+}
+.f_text{}
+.f_text h1{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101;
+}
+.f_text p{
+	font-size: 16px;
+	color: #898989;
+
+}
+
+/*feature end*/
